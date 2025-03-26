@@ -20,7 +20,7 @@ const ReelTracker: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap"
         rel="stylesheet"
       />
-      <div className="w-[375px] shadow-[-4px_2px_12px_0px_rgba(220,224,232,0.35)] bg-white border-l-[0.6px] border-l-[#EDEFF2] border-solid max-md:w-full font-['Mulish']">
+      <div className="w-[710px] shadow-[-4px_2px_12px_0px_rgba(220,224,232,0.35)] bg-white border-l-[0.6px] border-l-[#EDEFF2] border-solid max-md:w-full font-['Mulish']">
         <ReelTrackerHeader />
         <div className="p-6 max-sm:p-4">
           <div className="flex justify-between items-start mb-4 max-sm:flex-col max-sm:gap-3">
