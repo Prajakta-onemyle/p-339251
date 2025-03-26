@@ -13,7 +13,7 @@ const ReelTrackerTabs: React.FC<ReelTrackerTabsProps> = ({
   onTabChange,
 }) => {
   return (
-    <nav className="flex justify-between items-center relative mb-4">
+    <nav className="flex justify-between items-center relative">
       <div className="flex gap-5 relative">
         <button
           className={`text-[#444] text-base cursor-pointer ${activeTab === "total" ? "font-medium" : ""}`}
