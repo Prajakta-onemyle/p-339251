@@ -1,9 +1,10 @@
+
 import React from "react";
 
 const ReelTrackerHeader: React.FC = () => {
   return (
     <header className="flex justify-between items-center shadow-[0px_4px_12px_0px_rgba(0,0,0,0.06)] bg-white p-6 max-sm:p-4">
-      <h1 className="text-[#2E3748] text-lg font-bold">Reel Tracker</h1>
+      <h1 className="text-[#2E3748] text-[18px] font-bold leading-5">Reel Tracker</h1>
       <div>
         <div
           dangerouslySetInnerHTML={{
