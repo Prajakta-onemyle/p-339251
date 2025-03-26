@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import ReelTrackerHeader from "./ReelTrackerHeader";
 import ReelTrackerTabs from "./ReelTrackerTabs";
@@ -22,7 +23,7 @@ const ReelTracker: React.FC = () => {
       <div className="w-[710px] shadow-[-4px_2px_12px_0px_rgba(220,224,232,0.35)] bg-white border-l-[0.6px] border-l-[#EDEFF2] border-solid max-md:w-full font-['Mulish']">
         <ReelTrackerHeader />
         <div className="p-6 max-sm:p-4">
-          <div className="mb-4">
+          <div className="flex justify-between items-start mb-4 max-sm:flex-col max-sm:gap-3">
             <ReelTrackerTabs
               activeTab={activeTab}
               onTabChange={handleTabChange}

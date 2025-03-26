@@ -1,6 +1,5 @@
 
-import React, { useState, useRef, useEffect } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import React from "react";
 import {
   Select,
   SelectContent,
@@ -10,11 +9,11 @@ import {
 } from "@/components/ui/select";
 
 const ReelTrackerFilters: React.FC = () => {
-  const [timeFilter, setTimeFilter] = useState("Week");
-  const [campaignFilter, setCampaignFilter] = useState("All Campaign");
+  const [timeFilter, setTimeFilter] = React.useState("Week");
+  const [campaignFilter, setCampaignFilter] = React.useState("All Campaign");
 
   return (
-    <div className="flex gap-3.5 max-sm:flex-col">
+    <div className="flex gap-3.5 max-sm:w-full">
       <Select value={timeFilter} onValueChange={setTimeFilter}>
         <SelectTrigger className="w-[110px] h-[40px] rounded shadow-[0px_8px_20px_0px_rgba(207,212,224,0.10)] bg-white border-[0.8px] border-solid border-[rgba(219,225,234,0.80)] focus:ring-0 focus:ring-offset-0 focus-visible:ring-0 focus-visible:ring-offset-0">
           <SelectValue placeholder="Week" className="text-[#2E3748] text-base font-medium" />
